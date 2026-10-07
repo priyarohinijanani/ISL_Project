@@ -1063,12 +1063,12 @@ with col_camera:
 
         video_processor_factory=ISLProcessor,
 
-       rtc_configuration={
-           "iceServers": [
-               {"urls": ["stun:stun.l.google.com:19302"]},
-               {"urls": ["stun:stun1.l.google.com:19302"]}
-            ]
-       }
+        rtc_configuration={
+            "iceServers": [
+                {"urls": ["stun:stun.l.google.com:19302"]},
+                {"urls": ["stun:stun1.l.google.com:19302"]}
+             ]
+        }
 
         media_stream_constraints={
             "video": {
