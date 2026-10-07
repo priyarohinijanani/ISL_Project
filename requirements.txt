@@ -2,7 +2,7 @@ streamlit
 streamlit-webrtc
 opencv-python-headless
 mediapipe
-tensorflow==2.21.0
+tensorflow
 numpy==2.4.6
 gTTS==2.5.4
 pyttsx3==2.99
